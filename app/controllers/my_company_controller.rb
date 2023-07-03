@@ -1,0 +1,2 @@
+class MyCompanyController < ApplicationController
+end
