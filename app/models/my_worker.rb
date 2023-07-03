@@ -1,0 +1,2 @@
+class MyWorker < ApplicationRecord
+end
