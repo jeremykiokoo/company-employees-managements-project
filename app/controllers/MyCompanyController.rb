@@ -24,8 +24,16 @@ def update
 
      if @company.update(company_params)
         redirect_to @company, notice: 'company  data updated successfully'
+     else
+        render :edit
+     end
+    end
+    private
 
-end
-
-  end
+    def company_params
+        params.require(:company).permit(:name, :age)
+                 end
+            end
+         end
+    end
 end
