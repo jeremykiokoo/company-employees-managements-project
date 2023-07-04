@@ -4,7 +4,7 @@ def index
     @message = "Welcome to the homepage!"
 end
 def show
-    company = Company.find(params[:id])
+    @company = Company.find(params[:id])
     render json: company, serializer: CompanySerializer
 
 def about
