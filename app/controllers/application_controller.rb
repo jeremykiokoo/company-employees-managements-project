@@ -5,10 +5,10 @@ class ApplicationController < ActionController::Base
 
   private
 
-  def authenticate_user!
+  def authenticate_worker!
     # Your authentication logic here
 
 
-   # Redirect to login page if worker is user is not authenticated
+   # Redirect to login page if worker is worker  is not authenticated
   end
 end
