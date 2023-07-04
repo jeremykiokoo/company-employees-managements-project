@@ -1,6 +1,10 @@
-<h1>User List</h1>
+<h1>Worker List</h1>
 <ul>
 <% @workers.each do |worker|%>
 <li><%=worker.name%>
 <%end%>
 <ul>
+
+<h1>Worker Details<h1>
+<p>Name: <%= @worker.name%></p>
+<p>Age:  <%=worker.age%></p>
