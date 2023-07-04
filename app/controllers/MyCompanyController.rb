@@ -5,6 +5,10 @@ def index
 end
 
 def create
+    @company = Company(company_params)
+
+    if @company.save
+      redirect_to
 
 end
 def show
