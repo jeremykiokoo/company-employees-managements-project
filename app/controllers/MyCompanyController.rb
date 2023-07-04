@@ -8,7 +8,11 @@ def create
     @company = Company(company_params)
 
     if @company.save
-      redirect_to
+      redirect_to @company, notice: 'Company data created successfully'
+    else
+        render :new
+    end
+end
 
 end
 def show
@@ -32,6 +36,7 @@ def update
         render :edit
      end
     end
+    
     private
 
     def company_params
