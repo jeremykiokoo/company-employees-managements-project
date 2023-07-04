@@ -1,2 +1,0 @@
-class MyJobWorkerController < ApplicationController
-end
