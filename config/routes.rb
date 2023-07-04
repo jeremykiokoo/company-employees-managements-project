@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resoources :my_jobs
   resources :my_jobs_worker
 
-  
+  get 'about', to: 'home#about'
   get 'workers', to: 'workerss#index'
   post 'workers', to: 'workerss#create'
 end
