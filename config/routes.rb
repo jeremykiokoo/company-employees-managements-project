@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   resources :my_jobs_worker
 
   get 'about', to: 'home#about'
-  get 'workers', to: 'workerss#index'
-  post 'workers', to: 'workerss#create'
+  get 'workers', to: 'workers#index'
+  post 'workers', to: 'workers#create'
 end
