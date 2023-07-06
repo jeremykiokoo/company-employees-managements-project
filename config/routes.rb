@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'static_pages/home'
   get 'posts/new', to: 'posts#new', as: 'posts_new_path'  #Made changes here according to helper used in view 'posts_new_path'
   get 'sessions/new'
-  resources :users
+  resources :usersz
   resources :account_activations, only: [:edit]
   resources :password_resets, only: [:new, :create, :edit, :update]
   resources :posts, only: [:new, :create, :destroy]
