@@ -1,7 +1,7 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
-
+perez
 Worker.create(name:'Jane', age: '30', gender:'female', job:'receptionist')
 Worker.create(name:'Paul', age: '35', gender:'male',job:'janitor')  
 Worker.create(name:'Andrew' age:'25', gender:'male', job:'business analyst')
@@ -22,3 +22,5 @@ Worker.create(name:'John' age:'25' gender:'male', job:'company attendant')
 Worker.create(name:'Stephen' age:'28' gender:'male',job:'sales manager')
 Worker.create(name:'Anita' age:'32' gender:'female', job:'information security')
 Worker.create(name:'Edwin' age:'40' gender:'male', job:'actuary')  
+=======
+ main
