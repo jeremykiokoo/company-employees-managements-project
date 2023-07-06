@@ -1,25 +1,26 @@
-# README
+## Phase-4-Project
+-Company-Employees-Management-Phase-4-Project
+## Project by
+-Perez Kazungu
+-Jeremy Kioko
+-Tugi Gichiku
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Deliverables
+-A User should be able to view how long a worker spends time in the company per day.
 
-Things you may want to cover:
+-A User should be able to view if a worker has been present or absent.
 
-* Ruby version
+-A user Should be able to view how many extra workers a worker has put in.
 
-* System dependencies
+-A user should be able to view the goods allocated to the workers in charge of producing goods.
 
-* Configuration
+-A user should be able to view how much a worker earns in for of his/her salary.
 
-* Database creation
 
-* Database initialization
+## Project Set Up
+-Creating a react app.
+-Creating a rails app.
 
-* How to run the test suite
+## Finalization of the Project.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+## Submission of the Project.
