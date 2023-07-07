@@ -1,4 +1,4 @@
-class MyWorker < ApplicationRecord
+class MyWorker < ApplicationRecord  
     belongs_to :company
     has_many :jobs
     has_many :names
