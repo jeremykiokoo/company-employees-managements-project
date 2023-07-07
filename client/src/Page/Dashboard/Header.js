@@ -1,14 +1,11 @@
 import React from 'react'
 
-function Header({ setIsAdding }) {
-    return (
-        <header>
-            <h1>Employee Management System</h1>
-            <div style={{ marginTop: '30px', marginBottom: '18px' }}>
-                <button onClick={() => setIsAdding(true)} className='round-button'>Add Button</button>
-            </div>
-        </header>
+function Header() {
+    return(
+        <>    
+        <h2>Company Management</h2>
+        </>
     )
-}
+}  
 
-export default Header
+export default Header; 
