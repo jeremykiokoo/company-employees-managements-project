@@ -1,0 +1,29 @@
+<!-- app/views/home/index.html.erb -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+<body>
+  <h1>Companies</h1>
+  <ul>
+    <% @companies.each do |company| %>
+      <li><%= company.name %></li>
+    <% end %>
+  </ul>
+  
+  <h1>Jobs</h1>
+  <ul>
+    <% @jobs.each do |job| %>
+      <li><%= job.title %></li>
+    <% end %>
+  </ul>
+  
+  <h1>Workers</h1>
+  <ul>
+    <% @workers.each do |worker| %>
+      <li><%= worker.name %></li>
+    <% end %>
+  </ul>
+</body>
+</html>

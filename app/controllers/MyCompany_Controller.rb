@@ -5,7 +5,8 @@ def index
 end
 def show
     @company = Company.find(params[:id])
-    render json: company, serializer: CompanySerializer
+    render json: company, serializer: CompanySerializer  
+end
 
 def about
     @company_name = 'My Awesome Company'
@@ -15,9 +16,4 @@ def about
  end
 end
 
-def update
-    
-end
 
-  end
-end

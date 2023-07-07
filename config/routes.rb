@@ -6,5 +6,7 @@ Rails.application.routes.draw do
 
   get 'about', to: 'home#about'
   get 'workers', to: 'workerss#index'
-  post 'workers', to: 'workerss#create'
+  post 'workers', to: 'workerss#create'       
+  
 end
+
