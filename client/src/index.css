@@ -748,7 +748,6 @@ a.accent-button:active {
 a.muted-button {
   background: transparent;
   border: 1px solid #cdcdcd;
-  color: #4e4e4e;
 }
 
 .muted-button:hover,
@@ -802,7 +801,6 @@ textarea {
   border-radius: 4px;
   padding: 0.75rem;
   outline: none;
-  background: transparent;
   margin-bottom: 0.5rem;
   font-size: 1rem;
   width: 100%;
