@@ -17,7 +17,8 @@ end
 end
 def show
     @company = Company.find(params[:id])
-    render json: company, serializer: CompanySerializer
+    render json: company, serializer: CompanySerializer  
+end
 
 def about
     @company_name = 'My Awesome Company'
@@ -27,6 +28,9 @@ def about
  end
 end
 
+<<<<<<< HEAD:app/controllers/MyCompany_Controller.rb
+
+=======
 def update
      @company = Company.find(params[:id])
 
@@ -46,3 +50,4 @@ def update
          end
     end
 end
+>>>>>>> 63c651ee80fbe151a417f3deca83fc75667b7cfa:app/controllers/MyCompanyController.rb
