@@ -2,8 +2,13 @@
 -Company-Employees-Management-Phase-4-Project
 ## Project by
 -Perez Kazungu
+https://github.com/PerezAbel
+
 -Jeremy Kioko
+https://github.com/JeremyKiokoo
+
 -Tugi Gichiku
+https://github.com/Tugi-Ngunjiri
 
 ## Project Deliverables
 -A User should be able to view how long a worker spends time in the company per day.
@@ -56,5 +61,10 @@
 
 
 ## Finalization of the Project.
+->use the following commands to push to git hub
+-git add.
+-Commit changes .(git commit -m)
+-Git push origin branch Name
 
 ## Submission of the Project.
+-Copy and paste the project repositiry link to your canvas submission box.
